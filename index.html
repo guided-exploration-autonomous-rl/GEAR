@@ -573,21 +573,22 @@ pre {
         <h2>Simulation Experiments</h2>  
             <figure>
                 <a>
-                    <img width="100%" src="materials/website_figures_inline.png">
+                    <img width="100%" src="materials/figures_inline.png">
                 </a>
                 <p class="caption">
-                    Six simulation benchmarks where we test HuGE and compare against baselines. <strong>Bandu</strong>, <strong>Block Stacking</strong>, <strong>Kitchen</strong>, and <strong>Pusher</strong>, are long-horizon manipulation tasks; <strong>Four rooms</strong> and <strong>Maze</strong> are 2D navigation tasks
+                    The 4 simulation benchmarks where we test GEAR comparing it against other baselines. <strong>Kitchen</strong>, and <strong>Pusher</strong>, are manipulation tasks; <strong>Four rooms</strong> and <strong>Navigation</strong> are 2D navigation tasks
                 </p> <br>
             </figure>
             <figure>
                 <a>
-                    <img width="100%" src="materials/website_figures_success_curves.png">
+                    <img width="100%" src="materials/curves.png">
                 </a>
                 <p class="caption">
-                    Success curves of HuGE on the proposed benchmarks compared to the baselines. 
-                    HuGE outperforms the rest of the baselines, some of which cannot solve the environment, while converging to the oracle accuracy. 
+                    TODO: write better, change references to paper
+                    Success curves of GEAR on the proposed benchmarks compared to the baselines. 
+                    GEAR outperforms the rest of the baselines, some of which cannot solve the environment, while converging to the oracle accuracy. 
                     For those curves that are not visible, it means they never succeeded and hence are all at 0 (see D.9 in the paper for distance curves). 
-                    Note the lexa-like benchmark is only computed in the four rooms benchmark. The curves are the average of 4 runs, and the shaded region corresponds to the standard deviation. 
+                    Note: Due to the large observation space, GEAR could only be run in Kitchen with the autoregressive model (there is no oracle densities curve for that experiment). The curves are the average of 4 runs, and the shaded region corresponds to the standard deviation. 
                 </p> <br>
             </figure>
             
