@@ -584,11 +584,10 @@ pre {
                     <img width="100%" src="materials/curves.png">
                 </a>
                 <p class="caption">
-                    TODO: write better, change references to paper
                     Success curves of GEAR on the proposed benchmarks compared to the baselines. 
-                    GEAR outperforms the rest of the baselines, some of which cannot solve the environment, while converging to the oracle accuracy. 
-                    For those curves that are not visible, it means they never succeeded and hence are all at 0 (see D.9 in the paper for distance curves). 
-                    Note: Due to the large observation space, GEAR could only be run in Kitchen with the autoregressive model (there is no oracle densities curve for that experiment). The curves are the average of 4 runs, and the shaded region corresponds to the standard deviation. 
+                    GEAR outperforms the rest of the baselines, which cannot solve most of the environments. Futhermore, we see that the approach using ano autoregressive model performs as well as the using oracle densities. 
+                    Some curves may not seem visible because they never succeeded and hence stay at 0. 
+                    Note: Due to the large observation space in the kitchen environment, GEAR could only be run with the autoregressive model (there is no oracle densities curve for that experiment). The curves are the average of 4 runs, and the shaded region corresponds to the standard deviation. 
                 </p> <br>
             </figure>
             
