@@ -595,16 +595,16 @@ pre {
         <h2>Crowdsourced Experiments</h2>
         <figure>
             <a>
-                <img width="100%" src="materials/website_figures_crowdsourcing.png">
+                <img width="100%" src="materials/crowdsourcing.png">
             </a>
             <p class="caption">
-                <strong>left</strong>: Crowdsourcing experiment learning curves for the kitchen, <strong>middle</strong>: human annotators spanned 3 continents and 13 countries, <strong>right</strong>: screenshot of the interface for data collection.
+                <strong>left</strong>: Comparing performance in Four Rooms with different type of human feedback, <strong>right</strong>: Interface used to collect feedback.
             </p> <br>
         </figure>
         
     </section> 
     
-    <section id="robust_noise">
+    <!-- <section id="robust_noise">
         <hr>
         <h2>Robustness to Learning from Noisy Human Feedback</h2>
         <center>
@@ -615,20 +615,17 @@ pre {
             </video>
         </figure>
 
-    </section>
+    </section> -->
 
     <section id="analysis">
         <hr>
         <h2>Analysis</h2>
         <figure>
             <a>
-                <img width="100%" src="materials/website_figures_analysis.png">
+                <img width="100%" src="materials/huge_vs_gear.png">
             </a>
             <p class="caption">
-                <strong>left</strong>: Learning a goal selector (<i>Ours</i>) needs on average 50% fewer labels than not (<i>DDL</i>) 
-                <strong>middle</strong>: As the noise in the feedback increases, so will the number of timesteps to succeed, however HuGE still finds a solution. 
-                <strong>right</strong>: HuGE is robust to noisy goal selectors since trajectories going to each mode will be sampled while if we ran RL the policy would become biased and fail. 
-                See Appendix E in the paper for more details.
+                We see that by accounting for reachability GEAR manages to command meaningful goals, i.e. is able to command subgoals that it knows how to reach. We see that other methods like HuGE fail to do so, which translates to poorer performance.
             </p> <br>
         </figure>        
         <hr>
